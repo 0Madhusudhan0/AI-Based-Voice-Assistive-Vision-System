@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and temporary files
+logs/*
+!logs/.gitkeep
+*.log
+tmp/
+temp/
+
+# Model weights and generated artifacts
+models/*.pt
+models/*.onnx
+models/*.engine
+models/*.pth
+
+# Dataset files
+data/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
