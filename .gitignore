@@ -12,6 +12,7 @@ __pycache__/
 venv/
 env/
 .venv310/
+whiteboard-source.zip
 
 # Secrets and local environment
 .env
@@ -42,4 +43,3 @@ datasets/
 # OS
 .DS_Store
 Thumbs.db
-
